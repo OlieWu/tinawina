@@ -4,32 +4,22 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #F8C8DC;
+    background-image: url('../images/cat_background.jpg');
 }
 
-/* Position the "No" button absolutely within body */
-#noButton {
-    position: absolute;
-    margin-left: 150px;
-    transition: 0.5s;
-    /* Smooth movement */
-}
-
-#yesButton {
-    position: absolute;
-    margin-right: 150px;
-    /* Smooth movement */
-}
-
-.header_text {
+.header_text{
     font-family: 'Nunito';
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
-}
 
+    /* Add text shadow for thickness and dark pink lining */
+    text-shadow: 1px 0px 4px #ff6ebb;
+
+}
 .text {
     font-family: 'Nunito';
     font-size: 25px;
@@ -38,35 +28,11 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
+
+    /* Add text shadow for thickness and dark pink lining */
+    text-shadow: 1px 0px 4px #ff6ebb;
 }
 
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
-    /* optional: adds some space between the buttons */
-}
-
-.btn {
-    background-color: #FFB6C1;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 12px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #FAF9F6;
-}
 
 .gif_container {
     display: flex;
